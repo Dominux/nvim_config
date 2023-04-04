@@ -1,0 +1,6 @@
+require("dominux.plugin_configs.harpoon")
+require("dominux.plugin_configs.mason")
+require("dominux.plugin_configs.nvim_comment")
+require("dominux.plugin_configs.synthwave84")
+require("dominux.plugin_configs.telescope")
+require("dominux.plugin_configs.treesitter")

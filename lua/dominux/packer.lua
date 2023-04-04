@@ -34,4 +34,13 @@ return require('packer').startup(function(use)
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	-- use 'nvim-treesitter/playground'
 	use 'ThePrimeagen/harpoon'
+
+	-- LSP
+	use {
+		"williamboman/mason.nvim",
+		"williamboman/mason-lspconfig.nvim",
+		"neovim/nvim-lspconfig",
+	}
+
 end)
+
